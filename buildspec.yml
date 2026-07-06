@@ -14,7 +14,7 @@ phases:
             - echo "we are in the build block"
             - npm i --save
             - echo "we will run some tests"
-            - grep -Fq "CloudMentorPro" index.html
+            - grep -Fq "Hello World" index.html
     post_build:
         commands:
             - echo "we are in the post build phase"
